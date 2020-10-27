@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .search {
+            position: relative;
+            width: 178px;
+            margin: 100px;
+        }
+
+        .con {
+            display: none;
+            position: absolute;
+            top: -40px;
+            width: 171px;
+            border: 1px solid rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+            margin: 5px 0;
+            padding: 5px 0;
+            font-size: 18px;
+            line-height: 20px;
+            color: #333;
+        }
+
+        .con::before {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 28px;
+            left: 20px;
+            border: 8px solid #000;
+            border-style: solid dashed dashed;
+            border-color: white transparent transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <div class="con"></div>
+        <input type="text" placeholder="请输入您的快递单号" class="jd">
+    </div>
+    <script>
+        let textbox = document.querySelector(".jd");
+        let contentbox = document.querySelector(".con");
+        textbox.addEventListener("keyup", function () {
+            if (textbox.value != "") {
+                contentbox.style.display = "block";
+                contentbox.innerText = textbox.value;
+            }
+            else {
+                contentbox.style.display = "none";
+            }
+        });
+        textbox.addEventListener("focus", function () {
+            if (textbox.value != "") {
+                contentbox.style.display = "block";
+            }
+        });
+        textbox.addEventListener("blur",function(){
+            contentbox.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+    /* background-color: skyblue; */
+}
+
+.main .focus {
+    position: relative;
+    float: left;
+    /* background-color: #ccc; */
+    width: 721px;
+    height: 100%;
+    overflow: hidden;
+}
+.main .focus ul {
+    position: absolute;
+    width: 600%;
+}
+.main .focus ul li {
+    float: left;
+    width: 721px;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+   border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.bargain {
+    margin-top: 5px;
+}

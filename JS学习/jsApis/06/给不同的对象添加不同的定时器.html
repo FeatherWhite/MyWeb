@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        position: absolute;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+    }
+
+    span {
+        position: absolute;
+        left: 0;
+        top: 200px;
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-color: purple;
+    }
+</style>
+
+<body>
+    <button>点击夏雨荷</button>
+    <div>夏雨荷</div>
+    <span></span>
+    <script>
+        let btn = document.querySelector("button");
+        let div = document.querySelector("div");
+        let span = document.querySelector("span");
+        // 如果把obj.timer改为timer那么这个函数将不会动
+        function animate(obj, target) {
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function () {
+                if (obj.offsetLeft >= target) {
+                    clearInterval(obj.timer);
+                }
+                obj.style.left = obj.offsetLeft + 1 + "px";
+            }, 30);
+        }
+        btn.addEventListener("click",function(){
+            animate(div,400);
+        });
+        animate(span,500);
+    </script>
+</body>
+
+</html>

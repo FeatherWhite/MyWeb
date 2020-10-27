@@ -1,0 +1,10 @@
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\bin\Debug\MyHttpClient.exe.config
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\bin\Debug\MyHttpClient.exe
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\bin\Debug\MyHttpClient.pdb
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\obj\Debug\MyHttpClient.csprojAssemblyReference.cache
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\obj\Debug\MyHttpClient.csproj.CoreCompileInputs.cache
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\obj\Debug\MyHttpClient.exe
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\obj\Debug\MyHttpClient.pdb
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\bin\Debug\Newtonsoft.Json.dll
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\bin\Debug\Newtonsoft.Json.xml
+E:\doucments\MyProject\MyWeb\WebProject\Unit1\ASPCoreWebAPIServer\MyHttpClient\obj\Debug\MyHttpClient.csproj.CopyComplete

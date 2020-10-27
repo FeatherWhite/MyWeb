@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世纪佳缘</title>
+    <style>
+        .username {
+            color: #cccccc;
+            outline: none;
+            border: 1px solid #4f4f4f;
+        }
+        .blurstyle {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="username" value="你的名字">
+    <script>
+        let username = document.querySelector(".username")
+        username.onfocus = function() {
+            username.className = "username";
+            if(username.value == "你的名字"){
+                username.value = "";
+            }
+        }
+        username.onblur = function() {
+            if(username.value != "你的名字" || username.value == ""){
+                username.className = "blurstyle";
+            }
+            else {
+                username.value = "你的名字";
+                username.className = "username";
+            }
+        }
+    </script>
+</body>
+</html>

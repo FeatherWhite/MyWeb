@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>胸大</li>
+        <li>熊二</li>
+        <li>光头强</li>
+    </ul>
+    <button>删除节点</button>
+</body>
+<script>
+    let ul = document.querySelector("ul");
+    let btn = document.querySelector("button");
+    btn.onclick = function() {
+        if(ul.children.length != 0)
+            ul.removeChild(ul.children[0]);
+        else
+            console.log("都删完了(ง •_•)ง");
+    }
+</script>
+</html>

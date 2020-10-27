@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?tomleg');
+            src: url('fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?tomleg') format('truetype'), url('fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+
+        .w {
+            margin: auto;
+            width: 1200px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4c4c4c;
+        }
+
+        header  {
+            width: 75px;
+            height: 40px;
+        }
+
+        header .dt a {
+            position: relative;
+            display: inline-block;
+            width: 75px;
+            height: 40px;
+            padding: 0 25px;
+            font-size: 12px;
+            line-height: 40px;
+        }
+
+        header .dt a:hover {
+            background-color: #edeef0;
+            color: #fd8222;
+        }
+
+        header .dt a::after {
+            position: absolute;
+            font-family: "icomoon";
+            content: "\e91e";
+            top: 1px;
+            right: 6px;
+        }
+        header .dropdown .dd {
+            display:none;
+        }
+        header .dropdown .dd ul li{
+            width: 75px;
+            height: 35px;
+            list-style: none;
+            margin-top: -1px;
+            border: 1px solid #fd8222;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w">
+        <header>        
+            <div class="dropdown">
+                <div class="dt"><a href="#">微博</a></div>
+                <div class="dd">
+                    <ul>
+                        <li><a href="#">私信</a></li>
+                        <li><a href="#">评论</a></li>
+                        <li><a href="#">@我</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script>
+        let dt = document.querySelector('.dt');
+        let dd = document.querySelector('.dd');
+        dt.onmouseover = function() {
+            dd.style.display = "block";
+        }
+        dt.onmouseleave = function() {
+            dd.style.display = "none";
+        }
+        dd.onmouseover = function() {
+            dd.style.display = "block";
+        }
+        dd.onmouseleave = function() {
+            dd.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

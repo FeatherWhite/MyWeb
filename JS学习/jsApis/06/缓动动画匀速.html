@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* body {
+            margin: 0;
+        } */
+        .box {
+            position: absolute;
+            left: 0;
+            margin: 0;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+<!-- 自己写的简单版本 -->
+<!-- 会跑到522px有bug -->
+<!-- <script>
+    let box = document.querySelector(".box");
+    setInterval(function(){
+        if(box.offsetLeft < 500)
+            box.style.left = box.offsetLeft + 50 + "px";
+    },30)
+</script> -->
+<!-- pink老师的简单版本 -->
+<!-- <script>
+    let box = document.querySelector(".box");
+    let timer = setInterval(function () {
+        if (box.offsetLeft >= 100) {
+            clearInterval(timer);
+        }
+
+        // console.log("prev:"+ box.offsetLeft + "px");
+        // 用相对定位的话前面还是8px赋值之后就成16px不知为何
+        box.style.left = box.offsetLeft + 1+"px";
+        // console.log("current:"+box.offsetLeft + "px");
+    }, 30);
+</script> -->
+<!-- 对动画函数进行封装 -->
+<script>
+    let box = document.querySelector(".box");
+    animate(box,400);
+    function animate(obj, target) {
+    let timer = setInterval(function () {
+            if (obj.offsetLeft >= target) {
+                clearInterval(timer);
+            }
+            obj.style.left = obj.offsetLeft + 1 + "px";
+        }, 30)
+    }
+</script>
+
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>13-CSS三角强化的巧妙运用</title>
+	<style>
+		.box {
+			width: 160px;
+			height: 24px;
+            margin: 0 auto;
+            border: 1px solid red;
+		}
+		.miaosha {
+            position: relative;
+			float: left;
+            width: 90px;
+            height: 100%;       
+            background-color: red;
+            text-align: center;
+            color: #fff;
+            font-weight: 700;
+            margin-right: 8px;
+		}
+		.origin {
+            line-height: 24px;
+            font-size: 12px;
+            text-decoration: line-through;
+		}
+		.miaosha i {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 0;
+			height: 0;
+			border-color: transparent white transparent transparent;
+			border-width: 24px 10px 0px 0px;
+			border-style: solid;
+		}
+		/* .box 
+		.angle {
+			width: 0;
+			height: 0;
+			margin: 100px auto;
+			border-top-color: aliceblue;
+			border-bottom-color: antiquewhite;
+			border-left-color: rebeccapurple;
+			border-right-color: red;
+			border-color: transparent red transparent transparent;
+			border-width: 24px 12px 0px 0px;
+			border-style: solid;
+		} */
+	</style>
+</head>
+
+<body>
+	<!-- <div class="angle"></div> -->
+	<div class="box">
+		<span class="miaosha">
+			1500
+			<i></i>
+		</span>
+		<span class="origin">¥5600</span>
+	</div>
+</body>
+</html>

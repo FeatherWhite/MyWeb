@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span class="day">1</span>
+        <span class="hour">2</span>
+        <span class="minute">3</span>
+        <span class="second">4</span>
+    </div>
+    <script>
+        let day = document.querySelector('.day');
+        let hour = document.querySelector('.hour'); // 小时的黑色盒子
+        let minute = document.querySelector('.minute'); // 分钟的黑色盒子
+        let second = document.querySelector('.second'); // 秒数的黑色盒子
+        let inputTime = +new Date('2020-9-25 18:00:00');
+        setInterval(countdown, 1000);
+        function countdown() {
+            let nowTime = +new Date();
+            let timeLength = (inputTime - nowTime) / 1000;
+            let s = parseInt(timeLength % 60);
+            s = s < 10 ? '0' + s : s;
+            let m = parseInt((timeLength / 60) % 60);
+            m = m < 10 ? '0' + m : m;
+            let h = parseInt((timeLength / 3600) % 24);
+            h = h < 10 ? '0' + h : h;
+            let d = parseInt((timeLength / 3600) / 24);
+            d = d < 10 ? '0' + d : d;
+            day.innerText = d;
+            hour.innerText = h;
+            minute.innerText = m;
+            second.innerText = s;
+        }
+    </script>
+</body>
+
+</html>

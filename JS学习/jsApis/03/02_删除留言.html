@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comment ul li {
+            width: 200px;
+            height: 30px;
+            background-color: aqua;
+            margin-top: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text">
+    <button>留言</button>
+    <div class="comment">
+        <ul>
+
+        </ul>
+    </div>
+    <script>
+        // let btn = document.getElementsByTagName("button");
+        // let comment = document.querySelector(".comment");
+        // let ul = document.querySelector("ul");
+        // btn[0].onclick = function(){
+        //     var li = document.createElement('li');
+        //     ul.insertBefore(li,ul.children[0]);
+        // }
+        let btn = document.querySelector("button");
+        let comment = document.querySelector("input");
+        let ul = document.querySelector("ul");
+
+        btn.onclick = function () {
+            if (comment.value == '') {
+                alert('您没有输入内容');
+                return false;
+            } else {
+                let li = document.createElement('li');
+                li.innerHTML = comment.value + "<a href='javascrip:void(0);' class='del'>删除</a>";
+                ul.insertBefore(li, ul.children[0]);
+            }
+            // let as = document.querySelectorAll("a");
+            // for (let i = 0; i < as.length; i++) {
+            //     as[i].onclick = function () {
+            //         ul.removeChild(this.parentNode);
+            //     }
+            // }
+        }
+        ul.addEventListener("click", function (e) {
+            if(e.target.className == "del"){
+                ul.removeChild(e.target.parentNode);
+            }
+        })
+    </script>
+</body>
+
+</html>

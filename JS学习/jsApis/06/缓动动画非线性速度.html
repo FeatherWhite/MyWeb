@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="far">点击夏雨荷走到800</button>
+    <button class="near">点击夏雨荷走到500</button>
+    <div></div>
+    <script>
+        let btnFar = document.querySelector(".far");
+        let btnNear = document.querySelector(".near")
+        let div = document.querySelector("div");
+        function animate(obj, target) {
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function () {
+                if (obj.offsetLeft == target) {
+                    clearInterval(obj.timer);
+                    return;
+                }
+                let step = (target - obj.offsetLeft) / 10;
+                step = step >= 0 ? Math.ceil(step) : Math.floor(step);
+                obj.style.left = obj.offsetLeft + step + "px";
+            }, 15);
+        }
+        btnFar.addEventListener("click", function () {
+            animate(div, 800);
+        });
+        btnNear.addEventListener("click", function () {
+            animate(div, 500);
+        });
+    </script>
+</body>
+
+</html>

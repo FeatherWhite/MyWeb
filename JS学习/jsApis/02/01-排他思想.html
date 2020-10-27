@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .w {
+            margin: 100px auto;
+        }
+        div {
+            height: 20px;
+            width: 180px;
+            background:rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        ul li {
+            width: 10px;
+            height: 10px;
+            float: left;
+            margin: 5px 10px;
+            border:2px solid rgba(255, 255, 255, .8);
+            border-radius: 50%;
+            list-style: none;
+            transition:all 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="w">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script>
+        let lis = document.getElementsByTagName("li");
+        for(var i = 0;i < lis.length;i++){
+            lis[i].onmouseover = function() {
+                for(var i = 0;i < lis.length;i++){
+                    lis[i].style.backgroundColor = "";
+                }
+                this.style.backgroundColor = "white";
+            }
+        }
+    </script>
+</body>
+</html>

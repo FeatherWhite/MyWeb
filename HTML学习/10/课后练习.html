@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 380px;
+            height: 570px;
+            margin: 100px auto;
+            /* background-color: skyblue; */
+        }
+        .box .image,
+        .box .image img
+        {
+            width: 158px;
+            height: 322px;
+            margin: 0 calc(50% - 79px);
+        }
+        .box .image img {
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+        .box .title {
+            box-sizing: border-box;
+            margin-top: 30px;
+            padding: 0 10px;
+            font-weight: 400;
+            color: #4c4c4c;
+        }
+        .box .info {
+            height: 25px;
+            line-height: 25px;
+            margin-top: 22px;
+            padding: 0 5px;
+        }
+        .info .miaosha {
+            font-size: 25px;
+            padding-right: 5px;
+            color: red;
+        }
+        .info .origin {
+            font-weight: 700;
+            text-decoration:line-through;
+            color: #9a9d99;
+        }
+        .sealinfo .sealed{
+            float: left;
+        }
+        .sealinfo .progress {
+            float: left;
+            height: 15px;
+            width: 170px;
+            background-color: red;
+        }
+        .sealinfo .sruplus {
+            float:right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="image">
+            <img src="images/iphone.png" alt="">
+        </div>
+        <h3 class="title">Apple苹果iPhone 6s Plus（A1699）32G金色 移动联通电信4G手机</h3>
+        <div class="info">
+            <span class="miaosha">￥6088</span><span class="origin">￥6988</span>
+        </div>
+        <div class="sealinfo">
+            <div class="sealed">
+                <span>已售</span><i>87%</i>
+            </div>
+            
+            <div class="progress"></div>
+
+            <div>
+                <span class="surplus">剩余</span><i>29</i><span>件</span>
+            </div>           
+        </div>
+    </div>
+</body>
+
+</html>

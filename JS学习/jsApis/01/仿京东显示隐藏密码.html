@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>密码框</title>
+    <style>
+        div {
+            position: relative;
+            margin: 100px auto;
+            width: 400px;
+            border-bottom: 1px solid #cccccc;
+        }
+        div input {
+            height: 30px;
+            border: 0;
+            outline: none;
+            width: 360px;
+        }
+        div img {
+            position: absolute;
+            height: 20px;
+            right: 0;
+            top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="">
+            <img src="images/close.png" alt="" id="eye">
+        </label>
+        <input type="password" name="" id="pwd" style="">
+    </div>
+    <script>
+        let eye = document.getElementById("eye");
+        let pwd = document.getElementById("pwd");
+        let tag = 0;
+        eye.onclick = function() {
+            if(tag == 0){
+                pwd.type = "text";
+                eye.src="images/open.png";
+                tag = 1;
+            }
+            else{
+                pwd.type = "password";
+                eye.src="images/close.png";
+                tag = 0;
+            }
+        }
+    </script>
+</body>
+
+</html>
