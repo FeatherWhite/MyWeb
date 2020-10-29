@@ -1,18 +1,19 @@
+<!-- 绑定dom文本 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
-    <script src="../vue.js"></script>
+    <title>Document</title>
+    <script src="vue.js"></script>
 </head>
 <body>
-    <div id="app">{{message}}</div>
+    <div id = "app">{{message}}</div>
     <script>
-        let v = new Vue({
+        var app = new Vue({
             el:"#app",
             data:{
-                message:"HelloWorld",
+                message:'Hello Vue'
             }
         })
     </script>
