@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <script>
+        //数据对象
+        var data = {a:1}
+        // 将对象加入vue实例中
+        var vm = new Vue({
+            data:data
+        })
+        vm.a == data.a
+        vm.a = 2
+        
+    </script>
+</body>
+</html>
