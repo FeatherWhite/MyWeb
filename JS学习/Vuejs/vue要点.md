@@ -1,12 +1,16 @@
 ## Vue绑定了哪些内容
 1. DOM文本  
-2. Attribute
-3. DOM结构
-## 2. 对于需要计算才能得到的值Vue是怎样处理的
+2. [Attribute](#3-Class与Style绑定(Attribute))
+3. [DOM结构](#4-条件渲染)
+## 2. 对于需要计算才能得到的值Vue是怎样处理的  
 1. 使用函数
 2. 使用计算属性即执行一次函数将结果缓存如果函数变量未发生变化直接使用缓存的值,函数变量改变才重新计算(自定义getter,setter方法)
 3. 使用回调函数每次函数变量修改都会进行回调
-## 3. Class与Style绑定(Attribute)
+## 3. Class与Style绑定(Attribute)  
+1. v-bind:class
+2. v-bind:style
+## 4. 条件渲染
+1. v-if v-else v-else-if
 
 ##  Vue可以组件化
 `即允许我们使用小型、独立和通常可复用的组件构建大型应用`
