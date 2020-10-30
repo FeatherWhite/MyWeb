@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <style>
+        .color {
+            width: 20px;
+            height: 30px;
+            background-color: red;
+        }
+        .active{
+            display:none;
+        }
+        .text-danger{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="example" v-bind:class="[{activeClass: isActive}, errorClass]"></div>
+    <script>
+        var vm = new Vue({
+            el:'#example',
+            data:{
+                isActive: false,
+                hasError: true,
+                activeClass: 'active',
+                errorClass: 'text-danger'
+            }
+        })
+    </script>
+</body>
+</html>
