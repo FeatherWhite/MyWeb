@@ -7,17 +7,36 @@
     <script src="../vue.js"></script>
 </head>
 <body>
-    <template v-if="ok">
+    <div class="article">
+        <h1 class="title"></h1>
+        <p class="p1"></p>
+        <p class="p2"></p>
+    </div>
+
+    <template class="tarticle" v-if="ok">
         <h1>Title</h1>
         <p>Paragraph 1</p>
         <p>Paragraph 2</p>
     </template>
     <script>
-        // var vm = new Vue({
-        //     data:{
-        //         ok:false
-        //     }
-        // })
+        var vm = new Vue({
+            data:{
+                ok:true
+            }
+        })
+        if ('content' in document.createElement('template')) {
+            let tarticle = document.querySelector('.tarticle');
+            let tparagraph = tarticle.content.querySelector("h1");
+            let ttitle=tarticle.content.querySelectorAll("p");
+
+            let article = document.querySelector('.article');
+            let title = article.querySelector("h1");
+            let paragraph = article.querySelectorAll("p");
+            
+            title.textContent = ttitle.textContent;
+            // paragraph[0].textContent = tparagraph[0].textContent + '';
+            // paragraph[1].textContent = tparagraph[1].textContent + '';
+        }
     </script>
 </body>
 </html>

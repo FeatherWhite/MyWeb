@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="producttable">
+        <thead>
+          <tr>
+            <td>UPC_Code</td>
+            <td>Product_Name</td>
+          </tr>
+        </thead>
+        <tbody>
+          <td>123</td>
+          <td>我的名字</td>
+        </tbody>
+      </table>
+      
+      <template id="productrow">
+        <tr>
+          <td class="record">321</td>
+          <td>字名的我</td>
+        </tr>
+      </template>
+
+    <script>
+        if ('content' in document.createElement('template')) {
+            let t = document.querySelector('#productrow'),
+            td = t.content.querySelectorAll("td");
+            let tb = document.getElementsByTagName("tbody");
+            let clone = document.importNode(t.content, true);
+            tb[0].appendChild(clone);
+        }
+        // if ('content' in document.createElement('template')) {
+        //     let t = document.querySelector('#productrow'),
+        //         td = t.content.querySelectorAll("td");
+        //     td[0].textContent = "1235646565";
+        //     td[1].textContent = "Stuff";
+
+        //     let tb = document.getElementsByTagName("tbody");
+        //     let clone = document.importNode(t.content, true);
+        //     tb[0].appendChild(clone);
+
+        //     // 创建一个新行
+        //     td[0].textContent = "0384928528";
+        //     td[1].textContent = "Acme Kidney Beans";
+
+        //     // 克隆新行并将其插入表中
+        //     let clone2 = document.importNode(t.content, true);
+        //     tb[0].appendChild(clone2);
+        // }
+        // else {
+        //     // 找到另一种方法来添加行到表，因为不支持HTML模板元素。
+        // }
+    </script>
+</body>
+</html>
