@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table.gridtable {
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color:#333333;
+            border-width: 1px;
+            border-color: #666666;
+            border-collapse: collapse;
+        }
+        table.gridtable th {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #dedede;
+        }
+        table.gridtable td {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #ffffff;
+        }
+        .active{
+            display:none;
+        }
+        </style>
+        <script src="../vue.js"></script>
+</head>
+<body>
+    <table id="shoppingCart" class="gridtable">
+        <tr>
+            <th></th>
+            <th>书籍名称</th>
+            <th>出版日期</th>
+            <th>价格</th>
+            <th>购买数量</th>
+            <th>操作</th>
+        </tr>
+        <tr v-for="good in goods" v-bind:class="{active:good.isNotShow}">
+            <td></td>
+            <td>{{good.bookName}}</td>
+            <td>{{good.publicDate}}</td>
+            <td>{{good.price}}</td>
+            <td>
+                <div>
+                    <button style="float: left;margin-right: 10px;"
+                    v-on:click="good.counter<=0?good.counter=0:good.counter--">-</button>
+                    <p style="float:left; line-height: 4px;">{{good.counter}}</p>
+                    <button style="float: right;margin-left: 10px;"
+                    v-on:click="good.counter++">+</button>
+                </div>
+            </td>
+            <td>
+                <button v-on:click="good.isNotShow = true;good.counter = 0">移除</button>
+            </td>
+        </tr>
+        <tr><td colspan="6">总价：￥{{total}}</td></tr>
+    </table>
+    <script>
+        var tb = new Vue({
+            el:"#shoppingCart",
+            data:{
+                
+                goods:[
+                    {bookName:"你的名字",publicDate:"2018-8",price:10,counter:0,isNotShow:false},
+                    {bookName:"夏日大作战",publicDate:"2010-8",price:20,counter:0,isNotShow:false},
+                    {bookName:"龙猫",publicDate:"1998-8",price:30,counter:0,isNotShow:false},
+                    {bookName:"舌尖上的中国",publicDate:"2014-8",price:40,counter:0,isNotShow:false}
+                ]                   
+            },
+            computed:{
+                total:function(){
+                    let total = 0;
+                    for(x in this.goods){
+                        total += this.goods[x].price * this.goods[x].counter;
+                    }
+                    return total;
+                }
+            },
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="say('hi')">你嗨</button>
+        <button @click="say('what')">你什么你</button>
+    </div>
+    <button id="demo" @click="warn('表单不能被提交', $event)">提交</button>
+</body>
+<script>
+    var app = new Vue({
+        el: " #app",
+        data: {
+
+        },
+        methods: {
+            say: function (message) {
+                alert(message)
+            }
+        },
+    });
+    var demo = new Vue({
+        el:" #demo",
+        data:{
+            
+        },
+        methods:{
+            warn:function(message,event){
+                if(event){
+                    event.preventDefault()
+                }
+                alert(message)
+            }
+        },
+    })
+</script>
+</html>
