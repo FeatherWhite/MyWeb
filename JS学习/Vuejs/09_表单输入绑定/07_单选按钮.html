@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="radio" v-model="pick" v-bind:value="a" id="radio">
+        <label for="radio">{{pick}}</label>
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data:{
+                pick:'未选中',
+                a:'选中'
+            },
+            methods:{
+                
+            },
+        })
+    </script>
+</body>
+</html>
