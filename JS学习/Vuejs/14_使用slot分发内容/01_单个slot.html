@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <child-component>
+            <p>分发内容</p>
+            <p>分发更多内容</p>
+        </child-component>
+    </div>
+    <script>
+        Vue.component("child-component",{
+            template:`
+            <div>
+                <slot>
+                    <p>如果父组件没有插入内容,我将作为默认出现
+                    </p>
+                </slot>
+            </div>
+            `
+        });
+        var app = new Vue({
+            el: '#app',
+            data:{
+                
+            },
+            methods:{
+                
+            },
+        })
+    </script>
+</body>
+</html>
