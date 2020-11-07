@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{total}}
+        <input-num @change="handleGetTotal"></input-num>
+    </div>
+    <script>
+        Vue.component("input-num",{
+            template:`
+            <div>
+                <input type="text" :value="counter" @input="change">
+                <button @click="handleIncrease">+</button>
+                <button @click="handleReduce">-</button>
+            </div>
+            `,
+            data() {
+                return {
+                    counter: 0
+                }
+            },
+            methods: {
+                handleIncrease(){
+                    this.counter++
+                    this.$emit("change",this.counter)
+                },
+                handleReduce(){
+                    this.counter--
+                    this.$emit("change",this.counter)
+                },
+                change(event){
+                    this.counter = event.target.value;
+                    this.$emit("change",this.counter)
+                }
+            },
+        });
+        var app = new Vue({
+            el: '#app',
+            data:{
+                total:0
+            },
+            methods:{
+                handleGetTotal:function(counter){
+                    this.total = counter
+                }
+            },
+        })
+    </script>
+</body>
+</html>

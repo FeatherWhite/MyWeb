@@ -1,0 +1,21 @@
+D:\Test\UseHttpViaSocket\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe
+D:\Test\UseHttpViaSocket\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.pdb
+D:\Test\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Test\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.exe
+D:\Test\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.pdb
+D:\jxl\上课幻灯片\OOAD（研究生版-2011）\4 实际应用篇\5 走向互联互通的网络时代\1 使用Socket开发经典网络应用程序\6 Socket实例分析\SourceCode\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.exe
+D:\jxl\上课幻灯片\OOAD（研究生版-2011）\4 实际应用篇\5 走向互联互通的网络时代\1 使用Socket开发经典网络应用程序\6 Socket实例分析\SourceCode\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.pdb
+D:\jxl\上课幻灯片\OOAD（研究生版-2011）\4 实际应用篇\5 走向互联互通的网络时代\1 使用Socket开发经典网络应用程序\6 Socket实例分析\SourceCode\UseHttpViaSocket\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe
+D:\jxl\上课幻灯片\OOAD（研究生版-2011）\4 实际应用篇\5 走向互联互通的网络时代\1 使用Socket开发经典网络应用程序\6 Socket实例分析\SourceCode\UseHttpViaSocket\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.pdb
+D:\jxl\上课幻灯片\OOAD（研究生版-2011）\4 实际应用篇\5 走向互联互通的网络时代\1 使用Socket开发经典网络应用程序\6 Socket实例分析\SourceCode\UseHttpViaSocket\UseHttpViaSocket\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 探索HTTP协议\HTTPDemos\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe.config
+F:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 探索HTTP协议\HTTPDemos\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe
+F:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 探索HTTP协议\HTTPDemos\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.pdb
+F:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 探索HTTP协议\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.exe
+F:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 探索HTTP协议\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.pdb
+H:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe.config
+H:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.exe
+H:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.pdb
+G:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\bin\Debug\UseHttpViaSocket.exe.config
+G:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.exe
+G:\MOOC\录课视频相关文件\第三系列\第1部分 起步\3 HTTP协议基础\HTTPDemos\UseHttpViaSocket\obj\x86\Debug\UseHttpViaSocket.pdb

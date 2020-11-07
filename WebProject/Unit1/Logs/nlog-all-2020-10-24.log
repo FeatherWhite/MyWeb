@@ -1,0 +1,120 @@
+2020-10-24 11:27:43.8340|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:2705
+2020-10-24 11:27:43.9417|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 11:27:43.9716|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 11:27:43.9795|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 11:27:51.0681|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 11:27:51.0870|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 11:27:51.0870|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 11:27:51.1040|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 11:30:59.3343|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 11:30:59.3343|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 11:30:59.3343|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 11:30:59.3520|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 11:32:25.6328|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:36426
+2020-10-24 11:32:25.7223|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 11:32:25.7223|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 11:32:25.7223|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 11:32:26.5484|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 11:32:26.5675|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 11:32:26.5675|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 11:32:26.5675|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 11:33:40.4934|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:17781
+2020-10-24 11:33:40.6029|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 11:33:40.6029|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 11:33:40.6029|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 11:33:41.2846|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 11:33:41.2846|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 11:33:41.3056|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 11:33:41.3056|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:11:24.4775|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:1886
+2020-10-24 20:11:24.5724|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 20:11:24.5724|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 20:11:24.5865|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 20:11:28.5005|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:11:28.5197|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:11:28.5261|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:11:28.5261|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:32:53.3538|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:19072
+2020-10-24 20:32:53.4508|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 20:32:53.4508|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 20:32:53.4592|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 20:32:54.3006|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:32:54.3160|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:32:54.3219|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:32:54.3219|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:33:42.3469|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:17103
+2020-10-24 20:33:42.4537|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 20:33:42.4775|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 20:33:42.4904|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 20:33:43.2127|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:33:43.2331|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:33:43.2387|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:33:43.2387|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:35:24.9120|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:18472
+2020-10-24 20:35:25.0222|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 20:35:25.0222|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 20:35:25.0222|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 20:35:25.6732|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:35:25.6932|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:35:25.6932|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:35:25.6932|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:53:08.4577|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:18498
+2020-10-24 20:53:08.5661|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 20:53:08.5723|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 20:53:08.5723|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 20:53:13.0615|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:53:13.0811|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:53:13.0875|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:53:13.0875|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:53:43.6233|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:53:43.6324|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:53:43.6324|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:53:43.6324|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:53:56.3879|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:53:56.3879|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:53:56.3969|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:53:56.3969|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:54:01.4085|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:54:01.4155|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:54:01.4155|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:54:01.4155|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:54:08.6065|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:54:08.6065|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:54:08.6152|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:54:08.6152|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:54:19.3236|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:54:19.3236|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:54:19.3381|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:54:19.3381|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 20:54:50.4129|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 20:54:50.4129|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 20:54:50.4129|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 20:54:50.4287|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 21:02:47.3309|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:44859
+2020-10-24 21:02:47.4332|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 21:02:47.4332|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 21:02:47.4506|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 21:02:48.1669|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 21:02:48.1890|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 21:02:48.1950|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 21:02:48.1950|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 21:13:56.3271|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:16375
+2020-10-24 21:13:56.4225|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 21:13:56.4272|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 21:13:56.4272|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 21:14:05.1007|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 21:14:05.1187|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 21:14:05.1187|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 21:14:05.1301|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 21:28:46.9200|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://127.0.0.1:12040
+2020-10-24 21:28:47.0263|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-10-24 21:28:47.0263|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-10-24 21:28:47.0363|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\doucments\MyProject\MyWeb\WebProject\Unit1\StudentManagement\StudentManagement
+2020-10-24 21:28:47.6796|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 21:28:47.6965|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 21:28:47.6965|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 21:28:47.6965|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
+2020-10-24 21:33:24.9360|INFO|StudentManagement.Models.SQLStudentRepository|学生信息 信息(Information)Log
+2020-10-24 21:33:24.9418|WARN|StudentManagement.Models.SQLStudentRepository|学生信息 警告(Warning)Log
+2020-10-24 21:33:24.9418|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 错误(Error)Log
+2020-10-24 21:33:24.9418|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 严重(Critical)Log
