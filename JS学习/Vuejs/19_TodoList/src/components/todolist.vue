@@ -1,10 +1,10 @@
 <template> 
   <!-- 鼠标移动到li上之后删除键显示移出去删除键消失 -->
-  <li class="todo" :class="{completed:isDone,editing:isEdit}">
+  <li :class="{completed:checked,editing:isEdit}">
     
     <div class="view">
       <!-- 点击checkbox表示完成任务 -->
-      <input class="toggle" type="checkbox" :checked="isDone" @change="updateChecked">
+      <input class="toggle" type="checkbox" :checked="checked" @change="updateChecked">
       <!-- 双击label隐藏label显示input修改任务 -->
       <label
       @dblclick="editTodo">{{content}}</label>
@@ -16,6 +16,8 @@
       <!-- 发一次blur,keyup的target.value是input中的值也就是修 -->
       <!-- 改后的值blur中的target.value是input中的初始值 -->
       <input class="edit" type="text" v-model="modifiedContent"
+      v-autofocus
+       v-if="isEdit"
       @keyup.enter="(isEdit = false)" @blur="editDone">
   </li>
 </template>
@@ -23,19 +25,22 @@
 <script>
 export default {
     model: {
-    prop: 'isDone',
+    prop: 'checked',
     event: 'change'
   },
   props: {
     content: {
+      type: String,
       default: ""
     },
+    checked: {
+      type: Boolean,
+      default: false
+    }
   },
   data() {
     return {
-      isDone: false,
       isEdit: false,
-      isShow: false,
       modifiedContent:""
     }
   },
@@ -45,7 +50,7 @@ export default {
   },
   methods: {
     updateChecked(event) {
-      this.isDone = event.target.checked;
+      // this.checked = event.target.checked;
       this.$emit('change',event.target.checked);
     },
     editTodo() {
@@ -62,8 +67,18 @@ export default {
       this.$emit('editing');
       this.isEdit = false;
     },
-    deleteTodo(params) {
+    deleteTodo() {
       this.$emit("delete")
+    }
+  },
+    // 其他选项省略
+  directives: {
+    autofocus: {
+      // 被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)
+      inserted: function(el) {
+        // el: 指令所绑定的元素，可以用来直接操作 DOM
+        el.focus();
+      }
     }
   }
 }
