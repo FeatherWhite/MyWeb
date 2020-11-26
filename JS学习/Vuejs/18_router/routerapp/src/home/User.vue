@@ -1,5 +1,5 @@
 <template>
-  <div>nihao</div>
+  <p>User{{$route.params.userId}}</p>
 </template>
 
 <script>
