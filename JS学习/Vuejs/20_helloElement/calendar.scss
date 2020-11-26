@@ -1,0 +1,92 @@
+font-weight: 900;
+}
+​
+​
+// Calendar Days
+// ----------------------------- //
+.calendar__days {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  width: 100%;
+  float: none;
+  min-height: 580px;
+  height: 100%;
+  font-size: 12px;
+  padding: 0.8rem 0 1rem 1rem;
+  background:$white;
+​
+  @media screen and (min-width:55em) {
+    width: 70%;
+    float: right;
+  }
+}
+​
+// Top Bar
+.calendar__top-bar {
+  display: flex;
+  flex: 32px 0 0;
+}
+​
+.top-bar__days {
+  width: 100%;
+  padding: 0 5px;
+  color: lighten($black, 20%);
+  font-weight: 100;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 1rem;
+}
+​
+// Weeks & Days
+.calendar__week {
+  display: flex;
+  flex: 1 1 0;
+}
+​
+.calendar__day {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.9rem 0.2rem 0.2rem;
+}
+​
+.calendar__date {
+  color: $black;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 0.7;
+​
+  @media screen and (min-width:55em) {
+    font-size: 2.3rem;
+  }
+}
+​
+.calendar__week {
+  .inactive {
+    .calendar__date,
+    .task-count {
+      color: #c6c6c6;
+    }
+  }
+​
+  .today {
+    .calendar__date {
+      color: $pink;
+    }
+  }
+}
+​
+.calendar__task {
+  color: $black;
+  display: flex;
+  font-size: 0.8rem;
+​
+  @media screen and (min-width:55em) {
+    font-size: 1rem;
+  }
+​
+  &.calendar__task--today {
+    color: $pink;
+  }
+}
