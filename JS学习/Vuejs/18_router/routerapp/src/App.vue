@@ -4,7 +4,11 @@
   <router-link to="/home">首页</router-link>
   <router-link to="/About" replace active-class="active">相关</router-link>
   <router-link :to="'/User/'+userId" replace>用户</router-link>
-  <router-view></router-view>
+  <router-link :to="{path:'/Profile',query:{name:'你的名字',date:'2016'}}">档案</router-link>
+  <keep-alive exclude="Profile">
+    <router-view></router-view>
+  </keep-alive>
+  
   </div>
 </template>
 
